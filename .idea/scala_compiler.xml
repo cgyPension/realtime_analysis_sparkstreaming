@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="commom,common,gmall-cannal,gmall-realtime,gmall-realtime1,mock,realtime,realtime_analysis_sparkstreaming" />
+  </component>
+</project>

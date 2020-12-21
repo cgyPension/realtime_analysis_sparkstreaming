@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gmall-realtime" />
+        <module name="common" />
+        <module name="gmall-cannal" />
+        <module name="commom" />
+        <module name="mock" />
+        <module name="gmall-logger" />
+        <module name="gmall-realtime1" />
+        <module name="dw-chart" />
+        <module name="gmall-publisher" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gmall-realtime1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gmall-logger" options="-parameters" />
+      <module name="gmall-publisher" options="-parameters" />
+    </option>
+  </component>
+</project>
